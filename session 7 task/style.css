@@ -137,17 +137,6 @@
     color: #888;
 }
 
-.price {
-    color: #583be8;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.price span {
-    font-size: 12px;
-    color: #888;
-    font-weight: normal;
-}
 
 .specs {
     display: flex;
@@ -197,7 +186,6 @@
 }
 
 .title {
-    font-size: 1.5rem;
     color: rgb(255, 255, 255);
 }
 
