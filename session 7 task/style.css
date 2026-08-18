@@ -1,0 +1,233 @@
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Header {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.logo {
+    display: flex;
+    width: 16%;
+    margin: 1%;
+    gap: 10px;
+}
+
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.help-contact {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.hero-img {
+    width: 100%;
+    display: block;
+}
+.features {
+    display: flex ;
+    text-align: center;
+    margin-top: 5%;
+
+}
+.section-container {
+    display: flex;
+}
+.left {
+    width: 50%;
+}
+.left .img-left {
+    width: 100%;
+    height: 34rem;
+}
+.right {
+    width: 50%;
+}
+.item {
+    width: 100%; 
+    margin-left: 25px; 
+    display: flex;
+}
+.item .icon-numbers {
+    width: 32px;
+    height: 32px;
+    margin: 2%;
+}
+.item .text {
+    display: flex;
+    flex-direction: column;
+}
+.section-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end;          
+    margin-bottom: 30px;           
+    width: 85%;                    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+    color: #000;
+}
+
+.view-all {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.view-all:hover {
+    text-decoration: underline; 
+}
+
+.cars-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    width: 85%; 
+    margin: 2% auto; 
+    box-sizing: border-box;
+}
+
+.car-card {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%; 
+    box-sizing: border-box;
+}
+.car-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.car-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.car-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.car-info small {
+    color: #888;
+}
+
+.price {
+    color: #583be8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price span {
+    font-size: 12px;
+    color: #888;
+    font-weight: normal;
+}
+
+.specs {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    background-color: #583be8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card {
+    width: 12.5%;
+    display: inline-block;
+    margin: 6%;
+    height: 6rem;
+    vertical-align: middle;
+}
+
+.card .content {
+    width: 150%;
+    background-color: rgb(249, 248, 250);
+    border-radius: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.head {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.container .img {
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.container {
+
+    width: 77%;
+    margin: 3% auto;
+    padding: 2%;
+    background-color: #583be8;
+    border-radius: 2rem;
+}
+
+.cardContainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.icons {
+    width: 85%;
+    overflow: hidden;
+    padding: 18px;
+}
+
+.text-group {
+    margin: 20px;
+    padding: 0%;
+}
